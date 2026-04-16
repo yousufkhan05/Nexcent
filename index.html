@@ -11,33 +11,92 @@
 
 </head>
 
-<body class="inter-font px-5">
+<body class="inter-font  bg-[#dee2e7] ">
     <!-- HEADER SECTION -->
-    <header>
-        <nav class="container mx-auto mt-10 flex justify-between items-center">
-            <!-- LOGO -->
-            <div class="flex gap-2">
-                <img class="min-w-8 h-7" src="./Nexcent/Icon (1).png">
-                <h1 class="font-bold text-xl">Nexcent</h1>
-            </div>
-            <!-- ITEM -->
-            <div class="flex gap-4 items-center">
-                <ul class="hidden md:flex gap-8 ">
-                    <li class="text-amber-300 font-bold hover:scale-150  transition">About</li>
-                    <li class="text-green-400 font-bold hover:scale-150  transition">Product</li>
-                    <li class="text-purple-500 font-bold hover:scale-150  transition">Items</li>
-                    <li class="text-pink-400 font-bold hover:scale-150  transition">Contuct</li>
-                    <li class="text-blue-400 font-bold hover:scale-150  transition">Pricing</li>
-                </ul>
-                <button
-                    class="hidden md:flex py-2 px-4  bg-[#4CAF4F] text-white rounded-lg items-center gap-y-1 cursor-pointer">Register
-                    Now <i class="fa-solid fa-arrow-right"></i></button>
-                <div class="block md:hidden hover:scale-130 hover:rotate-180 focus:scale-130 transition">
-                    <i class="fa-solid fa-bars-staggered text-xl"></i>
+    <header class="">
+        <div class="bg-white px-5">
+            <nav class="container mx-auto  mt-10 flex justify-between items-center  p-1  ">
+                <!-- LOGO -->
+                <div class="flex gap-2">
+                    <img class="min-w-8 h-7" src="./Nexcent/Icon (1).png">
+                    <h1 class="font-bold text-xl">Nexcent</h1>
+                </div>
+                <!-- ITEM -->
+                <div class="flex gap-4 items-center">
+                    <ul class="hidden md:flex gap-8 ">
+                        <li class="text-amber-300 font-bold hover:scale-150  transition">About</li>
+                        <li class="text-green-400 font-bold hover:scale-150  transition">Product</li>
+                        <li class="text-purple-500 font-bold hover:scale-150  transition">Items</li>
+                        <li class="text-pink-400 font-bold hover:scale-150  transition">Contuct</li>
+                        <li class="text-blue-400 font-bold hover:scale-150  transition">Pricing</li>
+                    </ul>
+                    <button
+                        class="hidden md:flex py-2 px-4  bg-[#4CAF4F] text-white rounded-lg items-center gap-y-1 cursor-pointer">Register
+                        Now <i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="block md:hidden hover:scale-130 hover:rotate-180 focus:scale-130 transition">
+                        <i class="fa-solid fa-bars-staggered text-xl"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- HERO SECTION -->
+        <section class="container mx-auto ">
+            <!-- MAIN DIV -->
+            <div class="flex flex-col md:flex-row md:justify-between px-5  py-9 md:py-12 gap-8">
+                <!-- CONTENT PART -->
+                <div class="">
+                    <h1 class="font-semibold text-[35px] md:text-[44px]">
+                        Lessons and insights <br><span class="text-[#4CAF4F]">from 8 years</span>
+                    </h1>
+                    <p class="text-[#717171] mt-4 md:w-[90%]">
+                        Where to grow your business as a photographer: site or social media?
+                    </p>
+                    <button class="text-white bg-[#4CAF4F] py-2 px-4 font-medium mb-5 mt-4">Register</button>
+                </div>
+                <!-- IMAGR PART -->
+                <div class="">
+                    <img src="./Nexcent/Illustration.png">
                 </div>
             </div>
-        </nav>
+            <div class="flex justify-center items-center">
+                <img src="./Nexcent/Dot.png" alt="">
+            </div>
+        </section>
     </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+        <!-- OUR CLINTS SECTION-->
+        <section class="bg-white px-10 mt-10">
+            <!-- CONTAINER DIV -->
+            <div class="container mx-auto">
+                <h2 class="text-[#4D4D4D] font-semibold text-2xl text-center">Our Clients</h2>
+                <p class="text-[#717171] text-center text-sm">
+                    We have been working with some Fortune 500+ clients
+                </p>
+
+                <!-- ICON DIV -->
+                <div class="flex justify-evenly py-8 flex-wrap gap-5">
+                    <img src="./Nexcent/Logo.png">
+                    <img src="./Nexcent/Logo (1).png">
+                    <img src="./Nexcent/Logo (2).png">
+                    <img src="./Nexcent/Logo (3).png">
+                    <img src="./Nexcent/Logo (4).png">
+                    <img src="./Nexcent/Logo (5).png">
+                    <img src="./Nexcent/Logo (2).png"> 
+                </div>
+
+                <h1 class="text-[#4D4D4D] font-semibold text-2xl text-center mt-7 mb-3">
+                    Manage your entire community <br> in a single system
+                </h1>
+                <p class="text-[#717171] text-center text-sm ">Who is Nextcent suitable for?</p>
+
+                
+            </div>
+        </section>
+
+    </main>
 </body>
 
 </html>
